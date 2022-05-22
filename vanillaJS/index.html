@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Antodo | To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="front">
+            <img src="src/3.jpg" id="window"/>
+            <img src="src/1.jpg" id="crying"/>
+        </div>
+        <div id="todolist">
+            <div id="todoTitle">
+                <span>To Do List</span>
+            </div>
+            <div id="todoBox">
+                <form id="toDoWrite">
+                    <input placeholder="Write a Task"/>
+                    <button>Write</button>
+                </form>
+            </div>
+            <span id="caution">Click the Image below to add your task</span>            
+            <img src="src/4.jpg" id="pencil" />
+        </div>
+        <div id="back">
+            <div id="todayInfo">
+                <span id="date"></span>
+                <span id="weather"></span>
+            </div>
+            <img src="src/2.jpg" id="passion"/>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+    <script src="dateInfo.js"></script>
+</body>
+</html>
