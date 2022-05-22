@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+#front {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;;
+}
+
+#crying{
+    width: 18em;
+    height: 13em;
+}
+
+#window {
+    width: 12em;
+    height: 12em;
+}
+
+
+#passion {
+    width: 15em;
+    height: 25em;
+    align-self: flex-end;
+}
+
+#todolist {
+    border: solid 5px black;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#todoTitle {
+    height: 10%;
+    margin-top: 20px;
+}
+
+#todoTitle span {
+    font-family: 'Yeon Sung', cursive; 
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#todoBox {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+}
+
+.eachTodo {
+    width: 100%;
+    padding: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.eachTodo i {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.eachTodo span {
+    font-family: 'Yeon Sung', cursive; 
+    font-size: 25px;
+}
+
+#pencil {
+    cursor: pointer;
+}
+
+#toDoWrite{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 10em;
+    align-self: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EFEFEF;
+    border: solid 2px #6A7280;
+    border-radius: 10px;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto;
+}
+
+#toDoWrite input {
+    width: 80%;
+    height: 20%;
+    text-align: center;
+    font-size: medium;
+    border-radius: 10px;
+    font-family: 'Yeon Sung', cursive;
+    border-width: 0px;
+}
+
+#toDoWrite input:focus {
+    outline: none !important;
+    border: solid 3px #2E8ED6;
+}
+
+#toDoWrite button {
+    width: 80%; 
+    height: 30%;
+    background-color: #6A7280;  
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Yeon Sung', cursive;
+}
+
+#back {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#todayInfo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#todayInfo span {
+    font-family: 'Yeon Sung', cursive;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+#back img {
+    margin-right: 50px;
+}
+
+#caution {
+    font-family: 'Yeon Sung', cursive;
+    font-size: 17px;
+    color: #2E8ED6;
+}
